@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>STL Viewer</title>
+    <script src="path/to/stl_viewer.min.js"></script>
+</head>
+<body>
+    <div id="stl_cont"></div>
+    <script>
+    var stl_viewer = new StlViewer(document.getElementById("stl_cont"), {
+        models: [{ id: 0, filename: "path/to/your_model.stl" }]
+    });
+    </script>
+</body>
+</html>
